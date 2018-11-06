@@ -10,5 +10,6 @@ for (i=1;i<=1000;i++){
                 console.log(cubAry[k].a +","+ cubAry[k].b +","+ i + "," + j+ "," + cubSum)}};
 				
             cubAry.push({a:i,b:j,s:cubSum});
-			}};
+	};
+};
 console.log(new Date().toLocaleTimeString());			
